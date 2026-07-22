@@ -1,0 +1,9 @@
+# секреты — никогда не коммитить (на Cloud ключ вставляется в Advanced settings)
+.streamlit/secrets.toml
+.env
+
+# окружение и кэши
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

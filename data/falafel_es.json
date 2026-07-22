@@ -1,0 +1,702 @@
+{
+  "lang": "es",
+  "dish": "Falafel de garbanzos (levantino, freidora de aire)",
+  "yield_note": "≈20 bolitas de 30 g cada una",
+  "base_ingredients": [
+    {
+      "name": "Garbanzos secos",
+      "amount": "250 g",
+      "note": "Remojar 12–24 h en agua fría. NO cocer: el falafel usa solo garbanzos remojados — los garbanzos cocidos dan una masa pastosa que no mantiene la forma. No confundir con la ta'amia (falafel egipcio de habas) — es otro plato."
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Cebolla",
+      "amount": "80 g",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "Sabor plano",
+          "consequence": "Sin base dulce: el plato sabe unidimensional, el garbanzo domina sin apoyo aromático.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Fondo tenue",
+          "consequence": "Un atisbo de dulzor apenas perceptible — notablemente suave para la mayoría. Eso sí, la textura de la masa cruda mejora: menos humedad.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Equilibrado ✓",
+          "consequence": "Prácticamente el mismo resultado que 1× para la mayoría: algo menos dulce, pero dentro de la zona de tolerancia.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Equilibrado ✓",
+          "consequence": "Dulzor y profundidad aromática correctos; el aporte de humedad de la cebolla ya está contemplado en la receta.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Empieza a aguarse",
+          "consequence": "La cebolla suelta líquido extra: la masa queda más húmeda, hace falta más aglutinante y el resultado es más denso.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Acuoso",
+          "consequence": "Claro exceso de humedad en la masa cruda — se necesita bastante más harina para compensar. El sabor a cebolla empieza a dominar.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Fresca",
+          "detail": "Estándar. Suelta humedad al cortarla o triturarla — tenlo en cuenta para la cohesión de la masa."
+        },
+        {
+          "title": "Cebolla en polvo",
+          "detail": "~1 cdta en lugar de 80 g. Sin aporte de humedad — la masa quedará más seca y quizá no necesite aglutinante. Sabor más concentrado y uniforme."
+        },
+        {
+          "title": "Chalota",
+          "detail": "Más delicada, algo más dulce, menos humedad. Misma cantidad o un 10% más."
+        },
+        {
+          "title": "Cebolleta",
+          "detail": "Más suave, menos dulce. Solo las partes blanca y verde clara, ~60 g en lugar de 80 g."
+        },
+        {
+          "title": "Cebolla morada",
+          "detail": "Sabor crudo más intenso, más color. Misma cantidad."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Chalota",
+          "detail": "El sustituto más cercano, sabor algo más refinado."
+        },
+        {
+          "title": "Cebolla en polvo",
+          "detail": "Funciona si es aceptable reducir la humedad de la masa."
+        },
+        {
+          "title": "Omisión",
+          "detail": "Viable en el falafel — el plato funciona igual, solo con menos profundidad dulce."
+        }
+      ]
+    },
+    {
+      "name": "Ajo",
+      "amount": "3 dientes",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "Sin picor",
+          "consequence": "El sabor es más suave y neutro; las especias saben menos amplificadas.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Apenas se nota",
+          "consequence": "Una nota de fondo tenue — la mayoría no la distinguirá de la ausencia total.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Aroma ligero",
+          "consequence": "Perceptible pero discreto; las especias pasan limpias, sin competencia. Apenas distinguible de 1×.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Marcado ✓",
+          "consequence": "Nota clara de ajo sin dominar; amplifica eficazmente el comino y el cilantro en grano.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Intensificado",
+          "consequence": "El ajo se percibe como sabor propio y empieza a competir con las especias. Tras la cocción queda más suave que en crudo.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Agresivo",
+          "consequence": "El ajo domina. En la masa cruda el picor es agresivo; la cocción lo suaviza, pero el desequilibrio con las especias permanece.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Dientes frescos",
+          "detail": "Estándar. El sabor más intenso y complejo."
+        },
+        {
+          "title": "Ajo en polvo",
+          "detail": "½ cdta en lugar de 3 dientes. Sin humedad, se reparte uniformemente, sabor más suave y homogéneo — pero sin el punzante volátil del ajo fresco."
+        },
+        {
+          "title": "Ajo asado",
+          "detail": "Mucho más dulce y suave. 5–6 dientes asados en lugar de 3 crudos. Cambia el carácter notablemente: menos picante, más dulce."
+        },
+        {
+          "title": "Aceite de ajo",
+          "detail": "Da sabor sin textura — no sirve para la masa del falafel."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Ajo en polvo (cantidad reducida)",
+          "detail": "Alternativa aceptable."
+        },
+        {
+          "title": "Omisión",
+          "detail": "Aceptable. El sabor queda más suave."
+        },
+        {
+          "title": "No hay sustituto directo",
+          "detail": "Nada replica los compuestos volátiles específicos del ajo fresco."
+        }
+      ]
+    },
+    {
+      "name": "Perejil fresco",
+      "amount": "25 g",
+      "necessity": "optional",
+      "matrix": [
+        {
+          "verdict": "Sin verde",
+          "consequence": "El interior queda beige-marrón, el sabor más terroso y pesado. El plato sigue siendo plenamente funcional — la omisión es aceptable.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Verde pálido",
+          "consequence": "Nota herbal tenue; el color apenas se ve en el corte.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Frescor ligero",
+          "consequence": "Se ven motas verdes; el sabor está presente pero sin imponerse. Dentro de la zona de tolerancia para la mayoría de recetas.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Corte verde ✓",
+          "consequence": "Motas verdes claras en el corte, contraste fresco frente al garbanzo terroso. La nota herbal se nota pero está equilibrada.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Verde intenso",
+          "consequence": "El sabor herbal empieza a competir con las especias; la masa queda algo más húmeda.",
+          "in_zone": false
+        },
+        {
+          "verdict": "El verde domina",
+          "consequence": "El sabor herbal tapa las especias. La masa queda notablemente más húmeda — puede requerir aglutinante adicional. El interior se vuelve muy verde.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Fresco",
+          "detail": "Estándar. Aporta humedad y color vivo. Guárdalo en la nevera y úsalo en los 3 días posteriores a la compra para conservar mejor el color."
+        },
+        {
+          "title": "Seco",
+          "detail": "~1½ cdtas en lugar de 25 g (proporción ~1:4 en volumen). Sin aporte de humedad ni color verde en el corte; sabor más concentrado pero menos fresco. Aceptable en un apuro — notablemente distinto."
+        },
+        {
+          "title": "Congelado",
+          "detail": "Tras descongelarse se comporta como el fresco, pero suelta más agua — sécalo a conciencia antes de usarlo."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Cilantro fresco",
+          "detail": "Misma cantidad. Tradicional en el falafel levantino. Más cítrico y marcado — un sabor que divide, pero auténtico."
+        },
+        {
+          "title": "Eneldo",
+          "detail": "~15 g en lugar de 25 g. Perfil muy distinto (carácter más de Europa del Este), no tradicional en el falafel."
+        },
+        {
+          "title": "Albahaca",
+          "detail": "NO recomendada — choca con el comino y el cilantro en grano."
+        },
+        {
+          "title": "Omisión",
+          "detail": "Plenamente aceptable. El plato funciona sin hierbas."
+        }
+      ]
+    },
+    {
+      "name": "Comino molido",
+      "amount": "2 cdtas",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "Sin carácter",
+          "consequence": "El falafel pierde su identidad: sabe a garbanzos condimentados, no a falafel. Estructuralmente correcto, pero culturalmente irreconocible.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Sabor suave",
+          "consequence": "Nota tenue de comino, falta profundidad. Opción para quien no le gustan las especias intensas.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Moderado",
+          "consequence": "Reconocible pero contenido; el cilantro en grano pasa al frente. Aceptable para paladares sensibles.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Auténtico ✓",
+          "consequence": "Perfil levantino correcto. Funciona en equilibrio con el cilantro en grano — ninguno domina.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Empieza a amargar",
+          "consequence": "El comino tiende al amargor, sobre todo a las temperaturas de la freidora de aire. El equilibrio con el cilantro se desplaza.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Amargor",
+          "consequence": "Nota amarga clara; el comino tapa el cilantro. El plato se vuelve desagradablemente astringente.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Molido de paquete",
+          "detail": "Estándar. Pierde potencia unos 6 meses después de abrirse — huélelo: si el aroma es débil, usa más."
+        },
+        {
+          "title": "Recién molido de semillas tostadas",
+          "detail": "Notablemente más aromático. Método: tuesta las semillas enteras en sartén seca 1–2 min hasta que empiecen a saltar y huelan, enfría del todo y muele en la picadora Cecotec o en mortero. Molienda preferida para falafel: media — no en polvo. Los fragmentos pequeños de especia dan carácter y textura."
+        },
+        {
+          "title": "Semillas enteras en la masa",
+          "detail": "NO recomendado: las semillas de comino son pequeñas y duras — crean fragmentos punzantes desagradables."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Alcaravea",
+          "detail": "El pariente botánico más cercano. Usa ¾ de la cantidad. Perfil algo distinto — más europeo, menos de Oriente Medio. No tradicional pero funcional."
+        },
+        {
+          "title": "No hay más sustitutos válidos",
+          "detail": "Los compuestos volátiles específicos del comino (cuminaldehído) no tienen análogo cercano entre las especias comunes."
+        }
+      ]
+    },
+    {
+      "name": "Cilantro en grano molido",
+      "amount": "2 cdtas",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "El comino domina",
+          "consequence": "Sin cilantro en grano, el comino resulta opresivamente terroso. El sabor es unidimensional y pesado.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Desequilibrio",
+          "consequence": "El comino pesa más. La nota cítrica existe, pero no basta para equilibrar.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Desequilibrio leve",
+          "consequence": "Perfil notablemente más cominero. Aceptable para quien prefiere lo terroso a lo cítrico.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Armonía ✓",
+          "consequence": "Lo terroso y lo cítrico en equilibrio; el sabor es redondo y complejo. Comino y cilantro van a partes iguales precisamente porque se equilibran mutuamente.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Exceso cítrico",
+          "consequence": "El cilantro empieza a dominar. El perfil se inclina a lo cítrico-floral y pierde el carácter de Oriente Medio.",
+          "in_zone": false
+        },
+        {
+          "verdict": "El cilantro domina",
+          "consequence": "El comino queda enterrado. El plato sabe a una cocina regional distinta.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Molido de paquete",
+          "detail": "Misma advertencia de frescura que el comino: tras ~6 meses el aroma se apaga."
+        },
+        {
+          "title": "Recién molido de semillas tostadas",
+          "detail": "Mismo método que el comino. Las semillas de cilantro son más blandas y grandes que las de comino — admiten una molienda algo más gruesa; media-gruesa es apropiada para el falafel y aporta textura."
+        },
+        {
+          "title": "Semillas enteras",
+          "detail": "Posible como acento de textura intencionado: las semillas de cilantro son más blandas que las de comino y no crean fragmentos desagradables. No tradicional, pero comestible — solo si es a propósito."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Hoja de cilantro fresco",
+          "detail": "NO es un reemplazo directo de la semilla: la hoja y la semilla tienen compuestos de sabor emparentados pero distintos."
+        },
+        {
+          "title": "Cardamomo molido",
+          "detail": "~¼ cdta puede aportar una nota cítrico-floral, pero cambia notablemente la dirección del sabor."
+        },
+        {
+          "title": "Omisión",
+          "detail": "Mejor que un mal sustituto: si no hay cilantro en grano, simplemente reduce el comino en proporción."
+        }
+      ]
+    },
+    {
+      "name": "Sal",
+      "amount": "1 cdta",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "Todo apagado",
+          "consequence": "Todos los sabores — especias, hierbas, ajo — quedan notablemente apagados. El plato sabe plano y soso; lo nota todo el mundo.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Falto de sal",
+          "consequence": "El sabor está presente pero contenido; las especias no se expresan del todo. La mayoría lo nota.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Algo escaso",
+          "consequence": "Un paladar atento percibe la falta de sal. Aceptable para quien restringe la sal.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Equilibrado ✓",
+          "consequence": "La sal realza sin saber salada. Todos los demás sabores se expresan plenamente.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Algo excesivo",
+          "consequence": "Lo salado se percibe como nota propia; las especias saben más agudas. Lo nota la mayoría.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Salado en exceso",
+          "consequence": "La sal domina y aplasta las especias. El plato resulta desagradable.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Sal marina fina o de mesa",
+          "detail": "Estándar para el falafel: se disuelve uniformemente en la masa."
+        },
+        {
+          "title": "Sal gruesa",
+          "detail": "Se disuelve de forma desigual en una masa cruda — no recomendada sin molerla antes."
+        },
+        {
+          "title": "Flor de sal / escamas",
+          "detail": "Solo como sal de acabado, no para mezclar en la masa cruda."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "No hay",
+          "detail": "Nada conserva la función amplificadora de sabor de la sal. Redúcela solo por motivos dietéticos, sabiendo el impacto en el sabor."
+        },
+        {
+          "title": "Salsa de soja",
+          "detail": "No procede: aporta líquido y umami — no es para la masa del falafel."
+        }
+      ]
+    },
+    {
+      "name": "Pimienta negra",
+      "amount": "½ cdta",
+      "necessity": "optional",
+      "matrix": [
+        {
+          "verdict": "Sin calidez",
+          "consequence": "Casi imperceptible en una masa especiada. Final algo más simple.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Un atisbo",
+          "consequence": "Calidez apenas perceptible. Dentro de la zona de tolerancia muy amplia.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Calidez ligera",
+          "consequence": "Presente pero sutil. Dentro de la amplia zona de tolerancia.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Calidez ligera ✓",
+          "consequence": "Calidez suave en el final. Añade complejidad sin imponerse.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Más perceptible",
+          "consequence": "La pimienta es algo más marcada, pero sigue agradable para la mayoría.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Nota de pimienta",
+          "consequence": "La pimienta se percibe como sabor propio. Bien para amantes de la pimienta; redúcela si comen personas sensibles al picante.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Molida",
+          "detail": "Estándar."
+        },
+        {
+          "title": "Recién molida",
+          "detail": "Algo más aromática — mejora menor respecto a la premolida."
+        },
+        {
+          "title": "Pimienta blanca",
+          "detail": "Más suave, menos aromática, misma cantidad."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Pimienta blanca",
+          "detail": "Misma cantidad, más suave."
+        },
+        {
+          "title": "Pimentón ahumado",
+          "detail": "Aporta ahumado, no picante — cambia la dirección del sabor en lugar de sustituir."
+        },
+        {
+          "title": "Cayena",
+          "detail": "Mucho más picante. Usa ¼ de la cantidad."
+        },
+        {
+          "title": "Omisión",
+          "detail": "Apenas se nota en una masa con comino y cilantro en grano."
+        }
+      ]
+    },
+    {
+      "name": "Levadura química (polvo de hornear)",
+      "amount": "1 cdta",
+      "necessity": "conditional",
+      "necessity_note": "Adaptación occidental para la freidora de aire, no tradición. En la fritura profunda, el aceite caliente crea un empuje explosivo de vapor que airea el interior por sí solo — la freidora de aire carece de ese mecanismo, y una dosis pequeña de levadura química compensa parcialmente la diferencia. Hace la textura algo más ligera; no es obligatoria.",
+      "matrix": [
+        {
+          "verdict": "Densos — tradicional",
+          "consequence": "Interior denso y contundente — plenamente auténtico: así es exactamente el falafel tradicional frito en aceite. En la freidora de aire es aceptable, pero notablemente más denso.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Algo más densos",
+          "consequence": "Diferencia mínima con la norma — el interior queda solo un poco más denso.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Casi la norma",
+          "consequence": "Dentro de la zona de tolerancia para la mayoría de la gente.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Más ligero ✓",
+          "consequence": "Miga algo más ligera y abierta. Compensa parcialmente la falta del empuje explosivo de vapor de la fritura profunda.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Se desmoronan",
+          "consequence": "Las bolitas se vuelven frágiles — se agrietan o se rompen al girarlas o trasladarlas.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Se deshacen + regusto",
+          "consequence": "Fallo estructural más un regusto metálico-jabonoso por el exceso de levadura química.",
+          "in_zone": false
+        }
+      ],
+      "variants": [],
+      "substitutions": [
+        {
+          "title": "Bicarbonato",
+          "detail": "¼ de la cantidad (~¼ cdta en lugar de 1 cdta). Necesita un ácido para activarse, y el falafel estándar no lo tiene — el bicarbonato no se activará del todo y puede dejar una nota metálica. Solo si añades también zumo de limón o yogur."
+        },
+        {
+          "title": "Omisión",
+          "detail": "La opción tradicional y correcta."
+        }
+      ]
+    },
+    {
+      "name": "Harina",
+      "amount": "1–2 cdas",
+      "necessity": "conditional",
+      "necessity_note": "Red de seguridad para una masa húmeda, no tradición. Solo hace falta si: los garbanzos no se secaron a fondo, la cebolla soltó humedad de más o la masa se trituró hasta hacerse pasta. Con un secado y un pulsado correctos no hace falta harina en absoluto. La cantidad la determina la prueba de la bolita, no una cifra fija.",
+      "matrix": [
+        {
+          "verdict": "Se deshace",
+          "consequence": "La masa no liga: las bolitas se deshacen de inmediato o se desintegran en la freidora de aire. Excepción: con técnica perfecta, cero harina es la opción correcta.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Frágil",
+          "consequence": "Mantiene la forma en frío, pero se agrieta o se desmigaja al calentarse.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Mantiene la forma",
+          "consequence": "Puede bastar si la masa está solo ligeramente húmeda. Compruébalo con la prueba de la bolita.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Mantiene la forma ✓",
+          "consequence": "«1×» significa lo que exija la prueba de la bolita, no un gramaje fijo. Cohesión correcta: la bolita mantiene la forma a temperatura ambiente y no se pega a la palma.",
+          "in_zone": true,
+          "empirical": true
+        },
+        {
+          "verdict": "Más denso",
+          "consequence": "El interior queda algo más denso y empieza a saber a harina.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Harinosos",
+          "consequence": "Interior denso y amazacotado, con claro sabor a harina. Se pierde la textura ligera y desmenuzable del buen falafel.",
+          "in_zone": false
+        }
+      ],
+      "variants": [],
+      "substitutions": [
+        {
+          "title": "Harina de garbanzo",
+          "detail": "Mismo papel y mismo rango de cantidad; hace el sabor más coherente (todo el plato de garbanzo). Algo más higroscópica — empieza con la mitad de la dosis de harina de trigo y añade poco a poco. Sin gluten."
+        },
+        {
+          "title": "Maicena",
+          "detail": "½ de la cantidad — liga más fuerte con menos volumen. Sabor neutro, sin impacto en el color."
+        },
+        {
+          "title": "Omisión",
+          "detail": "La respuesta correcta si la técnica es buena. Prueba siempre primero con cero harina y verifica con la prueba de la bolita."
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Remojar los garbanzos",
+      "what": "Cubre 250 g de garbanzos secos con abundante agua fría (unas tres veces su volumen) y déjalos 12–24 h a temperatura ambiente. No los cuezas — el falafel usa solo garbanzos remojados.",
+      "duration": "12–24 h",
+      "accuracy": "verified",
+      "equipment": {
+        "device": "a mano",
+        "settings": "agua fría, ×3 el volumen de los garbanzos",
+        "accuracy": null
+      },
+      "done_when": "Un garbanzo se parte fácilmente con los dedos y el centro es mate en todo el corte — sin núcleo seco y vítreo.",
+      "if_skipped": "Los garbanzos secos o poco remojados no se triturarán en grano — las bolitas saldrán duras y quedarán crudas por dentro.",
+      "calibration": null
+    },
+    {
+      "title": "Escurrir y secar a fondo los garbanzos",
+      "what": "Escurre los garbanzos en un colador, extiéndelos en una sola capa sobre un paño y sécalos presionando con un segundo paño; déjalos reposar 10–15 min. Cuanto más secos los garbanzos, menos probable que haga falta harina.",
+      "duration": "10–15 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "a mano",
+        "settings": "colador + dos paños, una sola capa",
+        "accuracy": null
+      },
+      "done_when": "La superficie de los garbanzos se siente seca y suelta, y el paño de debajo ya no recoge marcas de humedad.",
+      "if_skipped": "Una masa húmeda no mantiene la forma — habrá que compensar con harina, y la textura será más densa.",
+      "calibration": null
+    },
+    {
+      "title": "Trocear la cebolla, el ajo y el perejil",
+      "what": "Pela la cebolla y el ajo, y separa las hojas de perejil de los tallos. Corta la cebolla en 6–8 trozos para que la procesadora trabaje de forma pareja.",
+      "duration": "5–7 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "a mano",
+        "settings": "cuchillo y tabla; la cebolla en 6–8 trozos",
+        "accuracy": null
+      },
+      "done_when": "Los trozos tienen un tamaño parecido, listos para un triturado uniforme.",
+      "if_skipped": "Los trozos grandes y desiguales se trituran de forma irregular: pasta en unas zonas, trozos enteros de cebolla en otras.",
+      "calibration": null
+    },
+    {
+      "title": "Triturar todo a pulsos en la Kenwood FDP22",
+      "what": "Carga los garbanzos, la cebolla, el ajo, el perejil, las especias, la sal y la pimienta en la Kenwood FDP22, llenando como máximo la mitad del bol de 2.1 L — trabaja en dos tandas si hace falta. Tritura con pulsos cortos de 1–2 s, rebañando las paredes entre tandas.",
+      "duration": "6–10 pulsos de 1–2 s",
+      "accuracy": "empirical",
+      "equipment": {
+        "device": "Kenwood FDP22 (bol de 2.1 L)",
+        "settings": "llenado ≤ ½ del bol; pulsos de 1–2 s",
+        "accuracy": "empirical"
+      },
+      "done_when": "La masa parece un grano húmedo (como cuscús), no una pasta: se distinguen gránulos sueltos a simple vista.",
+      "if_skipped": "Triturar en continuo en vez de a pulsos produce una pasta tipo hummus — las bolitas saldrán densas y requerirán harina.",
+      "calibration": "Prueba de consistencia: aprieta un puñado de masa en el puño — debe compactarse y aguantar. Si se desmorona — 1–2 pulsos más; si se unta como pasta — está sobretriturada, sálvala con harina en el paso 6."
+    },
+    {
+      "title": "Enfriar la masa",
+      "what": "Tapa la masa con una tapa o film y métela en la nevera 30–60 min. El frío compacta la masa y facilita notablemente el moldeado.",
+      "duration": "30–60 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "nevera",
+        "settings": "+4 °C, tapada con tapa o film",
+        "accuracy": null
+      },
+      "done_when": "La masa está fría al tacto y notablemente más firme que antes de enfriarla.",
+      "if_skipped": "Una masa tibia se pega a las manos y las bolitas mantienen peor la forma al moldearlas y girarlas.",
+      "calibration": null
+    },
+    {
+      "title": "Prueba de la bolita; harina si hace falta",
+      "what": "Forma una bolita de prueba de ~30 g y apriétala en la palma: debe mantener la forma y no pegarse. Si se deshace, incorpora harina de cda en cda, repitiendo la prueba tras cada cucharada.",
+      "duration": "2–5 min",
+      "accuracy": "empirical",
+      "equipment": {
+        "device": "a mano",
+        "settings": "harina de 1 cda en 1 cda, normalmente no más de 2",
+        "accuracy": null
+      },
+      "done_when": "La bolita de prueba mantiene la forma a temperatura ambiente y no deja restos pegajosos en la palma.",
+      "if_skipped": "El problema de cohesión aflorará ya en la freidora de aire, cuando la tanda empiece a deshacerse y sea tarde para corregir.",
+      "calibration": "Esta prueba es la que define el «1×» de la harina: la cantidad correcta es la mínima con la que la bolita pasa la prueba. Prueba siempre primero con cero harina."
+    },
+    {
+      "title": "Formar las bolitas",
+      "what": "Con las manos húmedas, forma bolitas de ~30 g (tamaño de una nuez) y aplánalas ligeramente — así se cocinan de forma más uniforme. Deberían salir unas 20.",
+      "duration": "10–15 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "a mano",
+        "settings": "~30 g por bolita; humedece las manos con agua",
+        "accuracy": null
+      },
+      "done_when": "Bolitas regulares y firmes, de tamaño uniforme, sin grietas en la superficie.",
+      "if_skipped": "Bolitas de tamaños dispares se cocinan de forma desigual: las pequeñas se resecan y las grandes quedan crudas por dentro.",
+      "calibration": null
+    },
+    {
+      "title": "Cocinar en la freidora de aire Ninja MAX PRO",
+      "what": "Rocía o pincela las bolitas con aceite y colócalas en la cesta en una sola capa con separación. Air Fry a ~200 °C durante ~12–14 min, girándolas en el minuto 6–7.",
+      "duration": "~12–14 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "Ninja MAX PRO (6.2 L, máx 240 °C)",
+        "settings": "Air Fry 200 °C, 12–14 min, girar a mitad de cocción",
+        "accuracy": "estimated"
+      },
+      "done_when": "Corteza crujiente de color dorado oscuro por todos los lados; una bolita partida está desmenuzable y hecha por dentro, no amazacotada.",
+      "if_skipped": "Sin girarlas a mitad de cocción, la cara inferior queda pálida y blanda mientras la superior se reseca.",
+      "calibration": "La calibración de la primera tanda es obligatoria: en el minuto 11 parte una bolita — si el interior está amazacotado, añade 2 min y vuelve a comprobar. El tiempo varía con el tamaño de las bolitas y la humedad de la masa; tras calibrar, los valores quedan verificados para tu equipo."
+    }
+  ],
+  "notes": [
+    "Todos los tiempos y temperaturas de la freidora de aire son estimaciones (~): varían con el tamaño de las bolitas, la humedad de la masa y la máquina concreta. Calibra la primera tanda según la instrucción del paso 8 — después, los valores quedarán verificados para tus propias condiciones.",
+    "La cantidad de harina y el número de pulsos, por principio, no son cifras fijas (?): los determinan la prueba de la bolita y la prueba de consistencia, no la receta."
+  ]
+}

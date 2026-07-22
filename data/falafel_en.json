@@ -1,0 +1,702 @@
+{
+  "lang": "en",
+  "dish": "Chickpea falafel (Levantine, air fryer)",
+  "yield_note": "≈20 balls of 30 g each",
+  "base_ingredients": [
+    {
+      "name": "Dried chickpeas",
+      "amount": "250 g",
+      "note": "Soak for 12–24 h in cold water. Do NOT cook: falafel uses soaked chickpeas only — cooked chickpeas produce a paste-like mixture that will not hold its shape. Not to be confused with ta'amia (Egyptian falafel made from fava beans) — that is a different dish."
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Onion",
+      "amount": "80 g",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "Flat flavour",
+          "consequence": "No sweet backbone: the dish tastes one-dimensional, the chickpeas dominate without aromatic support.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Faint background",
+          "consequence": "A barely perceptible hint of sweetness — noticeably mild to most palates. Texture of the raw mixture is actually better, though: less moisture.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Balanced ✓",
+          "consequence": "Effectively the same result as 1× for most people: slightly less sweet, but within the tolerance zone.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Balanced ✓",
+          "consequence": "Correct sweetness and aromatic depth; the onion's moisture contribution is accounted for in the recipe.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Starts to water down",
+          "consequence": "The onion releases extra liquid: the mixture becomes wetter, more binder is needed, the result is denser.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Watery",
+          "consequence": "Clear excess moisture in the raw mixture — significantly more flour is required to compensate. Onion flavour starts to dominate.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Fresh",
+          "detail": "Standard. Releases moisture when cut or processed — factor this into binding the mixture."
+        },
+        {
+          "title": "Onion powder",
+          "detail": "~1 tsp instead of 80 g. No moisture contribution — the mixture will be drier and may need little or no binder. Flavour is more concentrated and uniform."
+        },
+        {
+          "title": "Shallot",
+          "detail": "More delicate, slightly sweeter, less moisture. Same quantity or 10% more."
+        },
+        {
+          "title": "Scallion",
+          "detail": "Milder, less sweet. White and light-green parts only, ~60 g instead of 80 g."
+        },
+        {
+          "title": "Red onion",
+          "detail": "Sharper raw flavour, more colour. Same quantity."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Shallot",
+          "detail": "Closest substitute, slightly more refined flavour."
+        },
+        {
+          "title": "Onion powder",
+          "detail": "Works if reducing the mixture's moisture is acceptable."
+        },
+        {
+          "title": "Omission",
+          "detail": "Viable in falafel — the dish still works, just with less sweet depth."
+        }
+      ]
+    },
+    {
+      "name": "Garlic",
+      "amount": "3 cloves",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "No pungency",
+          "consequence": "Flavour is softer and more neutral; the spices taste less amplified.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Barely noticeable",
+          "consequence": "A faint background note — most people will not tell it apart from none at all.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Light aroma",
+          "consequence": "Noticeable but subtle; the spices come through cleanly without competition. Barely distinguishable from 1×.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Pronounced ✓",
+          "consequence": "A clear garlic note without dominating; amplifies cumin and coriander effectively.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Amplified",
+          "consequence": "Garlic becomes noticeable as its own flavour and starts to compete with the spices. After cooking it is milder than raw.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Harsh",
+          "consequence": "Garlic dominates. In the raw mixture the sharpness is aggressive; cooking softens it, but the imbalance with the spices remains.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Fresh cloves",
+          "detail": "Standard. Sharpest, most complex flavour."
+        },
+        {
+          "title": "Garlic powder",
+          "detail": "½ tsp instead of 3 cloves. No moisture, evenly distributed, milder and more uniform flavour — but it lacks fresh garlic's volatile bite."
+        },
+        {
+          "title": "Roasted garlic",
+          "detail": "Much sweeter and milder. 5–6 roasted cloves instead of 3 raw. Changes the character significantly: less pungent, more sweet."
+        },
+        {
+          "title": "Garlic oil",
+          "detail": "Gives flavour without texture — not suitable for the falafel mixture."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Garlic powder (reduced quantity)",
+          "detail": "Acceptable workaround."
+        },
+        {
+          "title": "Omission",
+          "detail": "Acceptable. Flavour becomes milder."
+        },
+        {
+          "title": "No direct substitute",
+          "detail": "Nothing replicates fresh garlic's specific volatile compounds."
+        }
+      ]
+    },
+    {
+      "name": "Fresh parsley",
+      "amount": "25 g",
+      "necessity": "optional",
+      "matrix": [
+        {
+          "verdict": "No greens",
+          "consequence": "The interior is beige-brown, the flavour earthier and heavier. The dish is still fully functional — omission is acceptable.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Pale green",
+          "consequence": "A faint herbal note; colour barely visible on the cross-section.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Light freshness",
+          "consequence": "Visible green flecks; flavour present but not assertive. Within the tolerance zone for most recipes.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Green interior ✓",
+          "consequence": "Clear green flecks on the cross-section, a fresh contrast to the earthy chickpeas. Herb flavour noticeable but balanced.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Assertive greens",
+          "consequence": "The herb flavour starts to compete with the spices; the mixture is slightly wetter.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Greens dominate",
+          "consequence": "Herbal taste overpowers the spices. The mixture is noticeably wetter — additional binder may be required. The interior becomes very green.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Fresh",
+          "detail": "Standard. Contributes moisture and bright colour. Refrigerate and use within 3 days of purchase for best colour retention."
+        },
+        {
+          "title": "Dried",
+          "detail": "~1½ tsp instead of 25 g (ratio ~1:4 by volume). No moisture contribution, no green colour on the cross-section; flavour is more concentrated but less fresh. Acceptable in a pinch — noticeably different."
+        },
+        {
+          "title": "Frozen",
+          "detail": "Behaves like fresh once thawed but releases more water — blot thoroughly dry before use."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Cilantro",
+          "detail": "Same quantity. Traditional in Levantine-style falafel. More citrusy and assertive — a divisive flavour, but authentic."
+        },
+        {
+          "title": "Dill",
+          "detail": "~15 g instead of 25 g. Significantly different profile (more Eastern European character), not traditional in falafel."
+        },
+        {
+          "title": "Basil",
+          "detail": "NOT recommended — clashes with cumin and coriander."
+        },
+        {
+          "title": "Omission",
+          "detail": "Fully acceptable. The dish works without herbs."
+        }
+      ]
+    },
+    {
+      "name": "Ground cumin",
+      "amount": "2 tsp",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "No character",
+          "consequence": "Falafel loses its identity: it tastes like seasoned chickpeas, not falafel. Structurally fine, but culturally unrecognisable.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Mild flavour",
+          "consequence": "A faint cumin note lacking depth. An option for those who dislike assertive spices.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Moderate",
+          "consequence": "Recognisable but restrained; coriander comes forward. Acceptable for sensitive palates.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Authentic ✓",
+          "consequence": "Correct Levantine profile. Works in balance with the coriander — neither dominates.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Starts to turn bitter",
+          "consequence": "Cumin begins to tip toward bitterness, especially at air fryer temperatures. The balance with the coriander shifts.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Bitterness",
+          "consequence": "A clear bitter note; cumin overpowers the coriander. The dish becomes unpleasantly astringent.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Pre-ground from a packet",
+          "detail": "Standard. Loses potency about 6 months after opening — sniff the packet: if the aroma is faint, use more."
+        },
+        {
+          "title": "Freshly ground from toasted seeds",
+          "detail": "Noticeably more aromatic. Method: dry-toast whole seeds in a pan for 1–2 min until they begin to pop and smell fragrant, cool completely, grind in the Cecotec chopper or a mortar. Preferred grind for falafel: medium — not powder. Small spice fragments add character and texture."
+        },
+        {
+          "title": "Whole seeds in the mixture",
+          "detail": "NOT recommended: cumin seeds are small and hard — they create unpleasant sharp fragments."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Caraway",
+          "detail": "The closest botanical relative. Use ¾ the quantity. Slightly different profile — more European, less Middle Eastern. Not traditional but functional."
+        },
+        {
+          "title": "Nothing else substitutes well",
+          "detail": "Cumin's specific volatile compounds (cuminaldehyde) have no close analogue among common spices."
+        }
+      ]
+    },
+    {
+      "name": "Ground coriander",
+      "amount": "2 tsp",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "Cumin dominates",
+          "consequence": "Without coriander, cumin becomes oppressively earthy. The flavour is one-dimensional and heavy.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Imbalance",
+          "consequence": "Cumin outweighs the coriander. The citrusy note is present but insufficient to balance.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Slight imbalance",
+          "consequence": "Noticeably more cumin-forward. Acceptable for those who prefer earthy over citrusy.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Harmony ✓",
+          "consequence": "Earthy and citrusy in balance; the flavour is rounded and complex. Cumin and coriander are used in equal quantities precisely because they balance each other.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Citrus tips over",
+          "consequence": "Coriander starts to dominate. The profile tips toward citrusy-floral and loses its Middle Eastern character.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Coriander dominates",
+          "consequence": "The cumin is buried. The dish tastes like something from a different regional cuisine.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Pre-ground from a packet",
+          "detail": "Same freshness caveat as cumin: after ~6 months the aroma fades."
+        },
+        {
+          "title": "Freshly ground from toasted seeds",
+          "detail": "Same method as for cumin. Coriander seeds are softer and larger than cumin seeds — a slightly coarser grind is fine; medium-coarse is appropriate for falafel and adds texture."
+        },
+        {
+          "title": "Whole seeds",
+          "detail": "Possible as an intentional textural element: coriander seeds are softer than cumin and will not create unpleasant fragments. Not traditional, but edible — only if intentional."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "Fresh coriander leaf (cilantro)",
+          "detail": "NOT a drop-in replacement for the seed: the leaf and the seed have related but distinct flavour compounds."
+        },
+        {
+          "title": "Ground cardamom",
+          "detail": "~¼ tsp can add a citrusy-floral note, but changes the flavour direction noticeably."
+        },
+        {
+          "title": "Omission",
+          "detail": "Better than a poor substitute: if coriander is unavailable, simply reduce the cumin proportionally."
+        }
+      ]
+    },
+    {
+      "name": "Salt",
+      "amount": "1 tsp",
+      "necessity": "important",
+      "matrix": [
+        {
+          "verdict": "Everything muted",
+          "consequence": "All flavours — spices, herbs, garlic — are noticeably muted. The dish tastes flat and dull; everyone notices.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Under-salted",
+          "consequence": "Flavour is present but restrained; the spices don't fully express. Most people notice.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Slightly under",
+          "consequence": "Perceptibly underseasoned to an attentive palate. Acceptable to those who restrict salt.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Balanced ✓",
+          "consequence": "Salt enhances without tasting salty. All other flavours come forward fully.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Slightly over",
+          "consequence": "Saltiness is perceptible as its own note; the spices taste sharper. Noticeable to most people.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Over-salted",
+          "consequence": "Salt dominates, the spices are overwhelmed. The dish is unpleasant.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Fine sea or table salt",
+          "detail": "Standard for falafel: dissolves evenly in the mixture."
+        },
+        {
+          "title": "Coarse salt",
+          "detail": "Dissolves unevenly in a raw mixture — not recommended unless ground first."
+        },
+        {
+          "title": "Fleur de sel / salt flakes",
+          "detail": "Finishing salt only, not for mixing into the raw mixture."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "None",
+          "detail": "Nothing preserves salt's flavour-amplification function. Reduce only for dietary reasons, knowing the flavour impact."
+        },
+        {
+          "title": "Soy sauce",
+          "detail": "Not appropriate: introduces liquid and umami — not for the falafel mixture."
+        }
+      ]
+    },
+    {
+      "name": "Black pepper",
+      "amount": "½ tsp",
+      "necessity": "optional",
+      "matrix": [
+        {
+          "verdict": "No warmth",
+          "consequence": "Almost unnoticeable in a spiced mixture. A slightly simpler finish.",
+          "in_zone": false
+        },
+        {
+          "verdict": "A hint",
+          "consequence": "Barely perceptible warmth. Within the very wide tolerance zone.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Gentle warmth",
+          "consequence": "Present but subtle. Within the broad tolerance zone.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Gentle warmth ✓",
+          "consequence": "Gentle warmth in the finish. Adds complexity without asserting itself.",
+          "in_zone": true
+        },
+        {
+          "verdict": "More noticeable",
+          "consequence": "Pepper is slightly more assertive, yet still pleasant for most.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Peppery note",
+          "consequence": "Pepper is noticeable as its own flavour. Fine for pepper lovers; reduce if serving people who dislike heat.",
+          "in_zone": false
+        }
+      ],
+      "variants": [
+        {
+          "title": "Pre-ground",
+          "detail": "Standard."
+        },
+        {
+          "title": "Freshly ground",
+          "detail": "Slightly more aromatic — a minor improvement over pre-ground."
+        },
+        {
+          "title": "White pepper",
+          "detail": "Milder, less aromatic, same quantity."
+        }
+      ],
+      "substitutions": [
+        {
+          "title": "White pepper",
+          "detail": "Same quantity, milder."
+        },
+        {
+          "title": "Smoked paprika",
+          "detail": "Adds smokiness, not heat — changes the flavour direction rather than substituting."
+        },
+        {
+          "title": "Cayenne pepper",
+          "detail": "Much hotter. Use ¼ the quantity."
+        },
+        {
+          "title": "Omission",
+          "detail": "Barely noticeable in a mixture with cumin and coriander."
+        }
+      ]
+    },
+    {
+      "name": "Baking powder",
+      "amount": "1 tsp",
+      "necessity": "conditional",
+      "necessity_note": "A Western adaptation for the air fryer, not tradition. In deep-frying, hot oil creates an explosive steam lift that aerates the interior by itself — an air fryer lacks this mechanism, and a small dose of baking powder partially compensates for the difference. Makes the texture slightly lighter; not obligatory.",
+      "matrix": [
+        {
+          "verdict": "Dense — traditional",
+          "consequence": "A dense, heavy interior — fully authentic: this is exactly what traditional deep-fried falafel is like. Acceptable in the air fryer, but noticeably denser.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Slightly denser",
+          "consequence": "Marginal difference from the norm — the interior is only a little denser.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Almost the norm",
+          "consequence": "Within the tolerance zone for most people.",
+          "in_zone": true
+        },
+        {
+          "verdict": "Lighter ✓",
+          "consequence": "A slightly lighter, more open crumb. Partially compensates for the air fryer's lack of the deep-fry explosive steam lift.",
+          "in_zone": true
+        },
+        {
+          "verdict": "They crumble",
+          "consequence": "Balls become fragile — they crack or break when turned or transferred.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Fall apart + off-taste",
+          "consequence": "Structural failure plus a metallic-soapy aftertaste from excess baking powder.",
+          "in_zone": false
+        }
+      ],
+      "variants": [],
+      "substitutions": [
+        {
+          "title": "Baking soda",
+          "detail": "¼ the quantity (~¼ tsp instead of 1 tsp). Requires an acid to activate, and standard falafel has none — the soda will not fully activate and may leave a metallic note. Only if you also add lemon juice or yogurt."
+        },
+        {
+          "title": "Omission",
+          "detail": "The traditional and correct choice."
+        }
+      ]
+    },
+    {
+      "name": "Flour",
+      "amount": "1–2 tbsp",
+      "necessity": "conditional",
+      "necessity_note": "A safety net for a wet mixture, not tradition. Needed only if: the chickpeas were not dried thoroughly, the onion released excess moisture, or the mixture was over-processed into a paste. With correct drying and correct pulsing, no flour is needed at all. The amount is determined by the ball test, not by a fixed number.",
+      "matrix": [
+        {
+          "verdict": "Falls apart",
+          "consequence": "The mixture does not bind: balls fall apart immediately or disintegrate in the air fryer. Exception: with perfect technique, zero flour is the correct option.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Fragile",
+          "consequence": "Holds shape when cold, but cracks or crumbles when heated.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Holds shape",
+          "consequence": "May be sufficient if the mixture is only slightly wet. Verify with the ball test.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Holds shape ✓",
+          "consequence": "\"1×\" means however much the ball test requires, not a fixed gram value. Correct cohesion: the ball holds its shape at room temperature and does not stick to the palm.",
+          "in_zone": true,
+          "empirical": true
+        },
+        {
+          "verdict": "Denser",
+          "consequence": "The interior is slightly denser and starts to taste floury.",
+          "in_zone": false
+        },
+        {
+          "verdict": "Floury",
+          "consequence": "A dense, doughy interior with a clear flour taste. The light, crumbly texture of good falafel is lost.",
+          "in_zone": false
+        }
+      ],
+      "variants": [],
+      "substitutions": [
+        {
+          "title": "Chickpea flour",
+          "detail": "Same role and quantity range; enhances flavour coherence (an all-chickpea dish). Slightly more hygroscopic — start with half the wheat flour amount and add gradually. Gluten-free."
+        },
+        {
+          "title": "Cornstarch",
+          "detail": "½ the quantity — binds tighter with less bulk. Neutral flavour, no colour impact."
+        },
+        {
+          "title": "Omission",
+          "detail": "The correct answer if technique is right. Always try zero flour first and verify with the ball test."
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": "Soak the chickpeas",
+      "what": "Cover 250 g of dried chickpeas generously with cold water (about three times their volume) and leave for 12–24 h at room temperature. Do not cook them — falafel uses soaked chickpeas only.",
+      "duration": "12–24 h",
+      "accuracy": "verified",
+      "equipment": {
+        "device": "by hand",
+        "settings": "cold water, ×3 the chickpea volume",
+        "accuracy": null
+      },
+      "done_when": "A chickpea breaks apart easily between your fingers and the centre is matte throughout — no dry, glassy core.",
+      "if_skipped": "Dry or under-soaked chickpeas will not grind into a couscous-like grain — the balls come out hard and stay raw inside.",
+      "calibration": null
+    },
+    {
+      "title": "Drain and dry the chickpeas thoroughly",
+      "what": "Drain the chickpeas in a colander, spread them in a single layer on a towel and blot with a second towel on top; let them sit for 10–15 min. The drier the chickpeas, the lower the chance you will need flour.",
+      "duration": "10–15 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "by hand",
+        "settings": "colander + two towels, single layer",
+        "accuracy": null
+      },
+      "done_when": "The surface of the chickpeas feels dry and loose, and the towel underneath no longer picks up wet marks.",
+      "if_skipped": "A wet mixture will not hold its shape — you will have to compensate with flour, and the texture becomes denser.",
+      "calibration": null
+    },
+    {
+      "title": "Roughly chop the onion, garlic and parsley",
+      "what": "Peel the onion and garlic, strip the parsley leaves from the stems. Cut the onion into 6–8 pieces so the processor works evenly.",
+      "duration": "5–7 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "by hand",
+        "settings": "knife and board; onion into 6–8 pieces",
+        "accuracy": null
+      },
+      "done_when": "Pieces are roughly the same size, ready for even processing.",
+      "if_skipped": "Large uneven chunks process unevenly: paste in some places, whole pieces of onion in others.",
+      "calibration": null
+    },
+    {
+      "title": "Pulse everything in the Kenwood FDP22",
+      "what": "Load the chickpeas, onion, garlic, parsley, spices, salt and pepper into the Kenwood FDP22, filling no more than half of the 2.1 L bowl — work in two batches if needed. Grind in short 1–2 s pulses, scraping down the sides between rounds.",
+      "duration": "6–10 pulses of 1–2 s",
+      "accuracy": "empirical",
+      "equipment": {
+        "device": "Kenwood FDP22 (2.1 L bowl)",
+        "settings": "fill ≤ ½ of the bowl; 1–2 s pulses",
+        "accuracy": "empirical"
+      },
+      "done_when": "The mixture looks like a moist grain (like couscous), not a paste: individual granules are visible to the eye.",
+      "if_skipped": "Running continuously instead of pulsing produces a hummus-like paste — the balls come out dense and will require flour.",
+      "calibration": "Consistency test: squeeze a handful of the mixture in your fist — it should clump and hold together. If it crumbles apart — 1–2 more pulses; if it smears like a paste — it is over-processed, rescue it with flour at step 6."
+    },
+    {
+      "title": "Chill the mixture",
+      "what": "Cover the mixture with a lid or plastic wrap and refrigerate for 30–60 min. The cold firms up the mixture and makes shaping noticeably easier.",
+      "duration": "30–60 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "refrigerator",
+        "settings": "+4 °C, covered with a lid or wrap",
+        "accuracy": null
+      },
+      "done_when": "The mixture is cold to the touch and noticeably firmer than before chilling.",
+      "if_skipped": "A warm mixture sticks to your hands, and the balls hold their shape poorly during shaping and turning.",
+      "calibration": null
+    },
+    {
+      "title": "Ball test; flour if needed",
+      "what": "Form one test ball of ~30 g and squeeze it in your palm: it should hold its shape and not stick. If it falls apart, work in flour 1 tbsp at a time, repeating the test after each spoonful.",
+      "duration": "2–5 min",
+      "accuracy": "empirical",
+      "equipment": {
+        "device": "by hand",
+        "settings": "flour 1 tbsp at a time, usually no more than 2",
+        "accuracy": null
+      },
+      "done_when": "The test ball holds its shape at room temperature and leaves no sticky residue on your palm.",
+      "if_skipped": "A cohesion problem will surface only in the air fryer, when the batch starts falling apart and it is too late to fix.",
+      "calibration": "This very test defines \"1×\" for the flour: the correct amount is the minimum at which the ball passes the test. Always try zero flour first."
+    },
+    {
+      "title": "Shape the balls",
+      "what": "With damp hands, shape balls of ~30 g each (walnut-sized) and flatten them slightly — they cook more evenly that way. You should get about 20.",
+      "duration": "10–15 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "by hand",
+        "settings": "~30 g per ball; wet your hands with water",
+        "accuracy": null
+      },
+      "done_when": "Even, firm balls of uniform size, with no cracks on the surface.",
+      "if_skipped": "Uneven-sized balls cook unevenly: small ones dry out, large ones stay raw inside.",
+      "calibration": null
+    },
+    {
+      "title": "Air fry in the Ninja MAX PRO",
+      "what": "Spray or brush the balls with oil and arrange them in the basket in a single layer with gaps. Air Fry at ~200 °C for ~12–14 min, turning them at minute 6–7.",
+      "duration": "~12–14 min",
+      "accuracy": "estimated",
+      "equipment": {
+        "device": "Ninja MAX PRO (6.2 L, max 240 °C)",
+        "settings": "Air Fry 200 °C, 12–14 min, turn halfway",
+        "accuracy": "estimated"
+      },
+      "done_when": "A deep golden, crisp crust on all sides; a broken-open ball is crumbly and cooked through inside, not doughy.",
+      "if_skipped": "Without turning halfway, the underside stays pale and soft while the top over-dries.",
+      "calibration": "First-batch calibration is mandatory: at minute 11, break one ball open — if the inside is doughy, add 2 min and check again. Timing shifts with ball size and mixture moisture; after calibration the values become verified for your setup."
+    }
+  ],
+  "notes": [
+    "All air fryer times and temperatures are estimates (~): they shift with ball size, mixture moisture and the specific machine. Calibrate the first batch per the step 8 instruction — after that, the values become verified for your own conditions.",
+    "The amount of flour and the number of pulses are fundamentally not fixed numbers (?): they are determined by the ball test and the consistency test, not by the recipe."
+  ]
+}
