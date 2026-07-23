@@ -1,7 +1,11 @@
 """Cooking Visualizer — разбор рецептов по правилам скилла cooking-visualizer."""
 
 import json
+import sys
 from pathlib import Path
+
+# каталог проекта в sys.path — для запуска через AppTest и из другого cwd
+sys.path.insert(0, str(Path(__file__).parent))
 
 import streamlit as st
 
